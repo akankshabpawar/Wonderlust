@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+body {
+    height:100%;
+
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+}
+.content {
+  flex: 1;
+  padding: 20px;
+}
+.navbar{
+    height: 5rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #222222;
+}
+.nav-item a{
+    font-size: 1.2rem;
+}
+footer .f-links a{
+    text-decoration: none;
+    color: #222222;
+}
+footer .f-links a:hover{
+    text-decoration: underline;
+}
+.f-info-social{
+    width: 100%;
+    font-size: 1.5rem;
+}
+.f-links{
+    width: 100%;
+}
+.f-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: space-evenly;
+    padding: 1rem;
+    height: 8rem;
+    background-color:#ebebeb;
+    margin-top: 1rem;
+}
+footer{
+    position: relative;
+    bottom:0;
+}
+.card{
+    border: none;
+    border-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem;
+    width: 100%;
+    object-fit: cover;
+}
+.list-link{
+    text-decoration: none;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* Add n Edit form */
+.add-btn, .update-btn, .edit-btn {
+    background-color: #fe424d;
+    border: none;
+}
+.delete-btn{
+    border: none;
+}
+
+/* show page */
+.show-img{
+    height: 40vh;
+}
+.btns{
+    display: flex;
+}
+.review-card{
+    border: 1px solid black;
+    margin: 10px;
+}
